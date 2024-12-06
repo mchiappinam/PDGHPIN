@@ -1,0 +1,31 @@
+#Tamanho do PIN e formato. Ex.: 1234567
+PIN:
+  Tamanho: 7
+  Formato:
+    Numeros: true
+    Letras: false
+#Sistema de seguranca
+Seguranca:
+  MaxTentativas: 3
+  TempoBloqueio: 150
+  Senha:
+    Tamanho: 6
+    Numeros: true
+    Letras: false
+#Sistema de mensagens
+Mensagens:
+  HelpCmd1: '&3&l[PDGH] &cLista de comandos do PIN:'
+  HelpCmd2: '&c@cmd &f- @desc'
+  WrongCmd: '&3&l[PDGH] &c@cmd'
+  InfoMsg: '&3&l[PDGH] &f@info'
+  Error1: '&3&l[PDGH] &cVoce nao esta logado!'
+  Error2: '&3&l[PDGH] &cPIN ja registrado nessa conta!'
+  Error3: '&3&l[PDGH] &cVoce ja esta logado!'
+  Error4: '&3&l[PDGH] &cNao ha PIN registrado nessa conta!'
+  Error5: '&3&l[PDGH] &cPIN incorreto!'
+  Error6: '&3&l[PDGH] &cPIN incorreto! (Tentativas restantes: @tentativa/@maxtentativas)'
+  Error7: '&3&l[PDGH] &cConta nao registrada!'
+  Error8: '&3&l[PDGH] &cPIN travado por errar muitas vezes (@time minutos)!'
+  Error9: '&3&l[PDGH] &cPIN bloqueado por @time minutos!'
+  KickMsg: '&f&lPIN registrado com sucesso!\n&c&lNao passe seu PIN para ninguem!\n&f&lANOTE BEM SEU PIN!\n\n&fSeu PIN: &a@pin'
+  KickMsg2: '&aPIN correto!\n\n&fLogue-se com: &a&l/logar @senha\n§&fOBS: Altere a senha com o comando /senha @senha nova-senha'
